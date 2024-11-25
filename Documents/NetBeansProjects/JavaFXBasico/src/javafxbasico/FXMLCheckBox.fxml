@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="javafxbasico.FXMLCheckBoxController">
+   <children>
+      <CheckBox fx:id="cbJava" layoutX="264.0" layoutY="141.0" mnemonicParsing="false" text="Java" />
+      <CheckBox fx:id="cbPHP" layoutX="264.0" layoutY="165.0" mnemonicParsing="false" text="PHP" />
+      <Button fx:id="cb" layoutX="260.0" layoutY="209.0" mnemonicParsing="false" onAction="#pegarValor" text="pegar Valor" />
+   </children>
+</AnchorPane>
